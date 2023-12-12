@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Ajout d'une couleur de fond */
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff; /* Ajout d'une couleur de fond */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px; /* Augmentation de la marge inférieure */
+    padding: 12px; /* Augmentation de la hauteur du champ */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Ajout d'une bordure */
+    border-radius: 3px; /* Arrondi des coins */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Ajout d'une transition pour le survol */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px; /* Ajout d'une marge supérieure */
+}
+
+/* Nouvelle page dashboard.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #555;
+}
+
+.content {
+    padding: 2em;
+}
+
